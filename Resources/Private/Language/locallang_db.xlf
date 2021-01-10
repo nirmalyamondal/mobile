@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mobile/Resources/Private/Language/locallang_db" date="2020-12-30T22:39:10Z" product-name="mobile">
+		<header/>
+		<body>
+			<trans-unit id="tx_mobile_data.name" resname="tx_mobile_data.name">
+				<source>Customer Mobile request process</source>
+			</trans-unit>
+			<trans-unit id="tx_mobile_data.description" resname="tx_mobile_data.description">
+				<source>Manage requests from customers mobile apps.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

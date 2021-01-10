@@ -1,0 +1,28 @@
+{
+    "name": "ashokatree/mobile",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nirmalya Mondal",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AshokaTree\\Mobile\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AshokaTree\\Mobile\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "ashokatree/mobile": "self.version",
+        "typo3-ter/mobile": "self.version"
+    }
+}

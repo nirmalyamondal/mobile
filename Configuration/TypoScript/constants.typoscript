@@ -1,0 +1,15 @@
+
+plugin.tx_mobile_data {
+    view {
+        # cat=plugin.tx_mobile_data/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:mobile/Resources/Private/Templates/
+        # cat=plugin.tx_mobile_data/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:mobile/Resources/Private/Partials/
+        # cat=plugin.tx_mobile_data/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:mobile/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_mobile_data//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
