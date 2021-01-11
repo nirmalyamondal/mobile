@@ -1,7 +1,8 @@
 {
     "name": "ashokatree/mobile",
     "type": "typo3-cms-extension",
-    "description": "",
+    "description": "Customer mobile data feed API",
+    "version": "11.0.0",
     "authors": [
         {
             "name": "Nirmalya Mondal",
@@ -9,7 +10,7 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^9.5"
+        "typo3/cms-core": "^11.0.0"
     },
     "autoload": {
         "psr-4": {
